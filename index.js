@@ -159,7 +159,7 @@ readGc = true
 readPc = false 
 antitrol = true 
 bugc = true
-autovn = true
+autovn = false
 autoketik = false
 
 let _diamond1 = '⦿ 1500 Diamonds';     let diamond1 = 'Rp 50.000,00';
