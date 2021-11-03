@@ -127,9 +127,9 @@ SEBAGIAN LU EDIT DI SETTING.JSON                                                
 var nomor_ovo = `0800000000000\nA.N SEWA?SUNG PC` //gk usah di ubah ya klo gk punya ntr eror
 var nomor_dana = `0800000000000\nA.N SEWA?SUNG PC` //gk usah di ubah ya klo gk punya ntr eror
 var nomor_gopay = `0800000000000\nA.N SEWA?SUNG PC` //gk usah di ubah ya klo gk punya ntr eror
-var qr_code_ovo = 'https://h.top4top.io/p_2053vk0uw1.jpg' //gk usah di ubah ya klo gk punya ntr eror
-var qr_code_dana = 'https://j.top4top.io/p_20532posd1.jpg' //gk usah di ubah ya klo gk punya ntr eror
-var qr_code_gopay = 'https://i.top4top.io/p_2053em3vh1.jpg' //gk usah di ubah ya klo gk punya ntr eror
+var qr_code_ovo = 'https://f.top4top.io/p_2133r2d610.jpg' //gk usah di ubah ya klo gk punya ntr eror
+var qr_code_dana = 'https://f.top4top.io/p_2133r2d610.jpg' //gk usah di ubah ya klo gk punya ntr eror
+var qr_code_gopay = 'https://g.top4top.io/p_2133bryga1.jpg' //gk usah di ubah ya klo gk punya ntr eror
 
 var _minggu = 'Rp 5.000,00' //Masukkan harga sewa sesuai keinginan
 var __minggu = 'Rp 7.000,00'
