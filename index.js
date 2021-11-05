@@ -162,16 +162,16 @@ bugc = true
 autovn = false
 autoketik = false
 
-let _diamond1 = '⦿ 1500 Diamonds';     let diamond1 = 'Rp 50.000,00';
-let _diamond2 = '⦿ 3250 Diamonds';     let diamond2 = 'Rp 100.000,00';
-let _diamond3 = '⦿ 5300 Diamonds';     let diamond3 = 'Rp 150.000,00';
-let _diamond4 = '⦿ 7800 Diamonds';     let diamond4 = 'Rp 200.000,00';
-let _diamond5 = '⦿ 11500 Diamonds';   let diamond5 = 'Rp 250.000,00';
-let _diamond6 = '⦿ 15500 Diamonds';   let diamond6 = 'Rp 300.000,00';
-let _diamond7 = '⦿ 22000 Diamonds';   let diamond7 = 'Rp 350.000,00';
-let _diamond8 = '⦿ 28500 Diamonds';   let diamond8 = 'Rp 400.000,00';
-let _diamond9 = '⦿ 35000 Diamonds';   let diamond9 = 'Rp 450.000,00'; 
-let _diamond10 = '⦿ 47600 Diamonds'; let diamond10 = 'Rp 500.000,00';
+let _diamond1 = '⦿ 5 Diamonds';     let diamond1 = 'Rp 1.000,00';
+let _diamond2 = '⦿ 12 Diamonds';     let diamond2 = 'Rp 2.000,00';
+let _diamond3 = '⦿ 50 Diamonds';     let diamond3 = 'Rp 8.000,00';
+let _diamond4 = '⦿ 70 Diamonds';     let diamond4 = 'Rp 10.000,00';
+let _diamond5 = '⦿ 140 Diamonds';   let diamond5 = 'Rp 20.000,00';
+let _diamond6 = '⦿ 355 Diamonds';   let diamond6 = 'Rp 50.000,00';
+let _diamond7 = '⦿ 720 Diamonds';   let diamond7 = 'Rp 100.000,00';
+let _diamond8 = '⦿ 1450 Diamonds';   let diamond8 = 'Rp 200.000,00';
+let _diamond9 = '⦿ 2180 Diamonds';   let diamond9 = 'Rp 300.000,00'; 
+let _diamond10 = '⦿ 3640 Diamonds'; let diamond10 = 'Rp 500.000,00';
 let _diamond11 = '⦿ M.MINGGUAN';      let diamond11 = 'Rp 30.000,00';
 let _diamond12 = '⦿ M.BULANAN';         let diamond12 = 'Rp 110.000,00';
 
@@ -1190,7 +1190,7 @@ const buttons1 = [
 ]
 
 const btn1 = {
-    contentText: `Halo @${sender.split('@')[0]}\n\nTop up diamond by WhatsApp bot. Ini hanyalah percobaan jadi zeeone gak jual diamond, uc, dll. Untuk list shop yang lain ketik ${prefix}price😅🤙`,
+    contentText: `Halo @${sender.split('@')[0]}\n\nTop up diamond by Eorro Store. pilih top up diamond yg diinginkan atau pc langsung, uc, dll. Untuk list shop yang lain ketik ${prefix}price😅🤙`,
     footerText: `${tampilTanggal}\n${tampilWaktu}\n${creator}\n\nRegard @${koko.split('@')[0]}`,
     buttons: buttons1,
     headerType: 6,
@@ -1896,7 +1896,7 @@ case 'bcgif':
 					const vname = alpha.contacts[i] != undefined ? alpha.contacts[i].vname || alpha.contacts[i].notify : undefined
 					ini_list.push({
 					"displayName": 'Owner Alphabot',
-					"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname ? `${vname}` : `${alpha.user.name}`}\nORG: SUBSCRIBE ZEEONE OFC;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+					"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname ? `${vname}` : `${alpha.user.name}`}\nORG: SUBSCRIBE EORRO;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 					})
 					}
 					hehe = await alpha.sendMessage(from, {
@@ -2192,7 +2192,7 @@ break
 		            imageToBase64(pjr)
 		            .then((response) => {
 		            media =  Buffer.from(response, 'base64');
-		            alpha.sendMessage(from,media,image,{quoted:mek,caption:'Dasar wibu. Nih!!!\nJgn lupa sub YT : ZEEONE OFC'})
+		            alpha.sendMessage(from,media,image,{quoted:mek,caption:'Dasar wibu. Nih!!!\nJgn lupa sub YT : EORRO'})
 		            }
 		            )
 		            .catch((error) => {
@@ -2229,7 +2229,7 @@ case 'setexif':
 				    media_ = await alpha.downloadAndSaveMediaMessage(encmedia_)
 		            anu = args.join(' ').split('|')
 		            satu = anu[0] !== '' ? anu[0] : `SUBSCRIBE`
-		            dua = typeof anu[1] !== 'undefined' ? anu[1] : `ZEEONE OFC`
+		            dua = typeof anu[1] !== 'undefined' ? anu[1] : `EORRO YT`
 		            require('./lib/fetcher.js').createExif(satu, dua)
 					require('./lib/fetcher.js').modStick(media_ , alpha, mek, from)
 					break
@@ -4997,7 +4997,7 @@ _Silahkan tunggu file media sedang dikirim mungkin butuh beberapa menit_`
 					const vname_ = alpha.contacts[i] != undefined ? alpha.contacts[i].vname || alpha.contacts[i].notify : undefined
 					ini_list.push({
 					"displayName": 'Owner Alphabot',
-					"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname_ ? `${vname_}` : `${alpha.user.name}`}\nORG: SUBSCRIBE ZEEONE OFC;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+					"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname_ ? `${vname_}` : `${alpha.user.name}`}\nORG: SUBSCRIBE EORRO;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 					})
 					}
 					hehe = await alpha.sendMessage(from, {
@@ -5042,7 +5042,7 @@ if (subscribezeeoneofc == "ownerku"){
 					const vname_ = alpha.contacts[i] != undefined ? alpha.contacts[i].vname || alpha.contacts[i].notify : undefined
 					ini_list.push({
 					"displayName": 'Owner Alphabot',
-					"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname_ ? `${vname_}` : `${alpha.user.name}`}\nORG: SUBSCRIBE ZEEONE OFC;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+					"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname_ ? `${vname_}` : `${alpha.user.name}`}\nORG: SUBSCRIBE EORRO;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 					})
 					}
 					hehe = await alpha.sendMessage(from, {
