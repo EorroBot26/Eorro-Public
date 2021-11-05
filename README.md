@@ -51,10 +51,6 @@ Off in web nya
 </p>
 
 
-## ```COFFEE```
-
-- [`SAWERIA`](https://saweria.co/zeeoneofc)
-
 ## ```GROUP SUPPORT```
 
 - [`Alphabot 1`](https://chat.whatsapp.com/EU890BcXjyBDkNaUT5WmYV)
