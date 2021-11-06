@@ -53,9 +53,9 @@ Off in web nya
 
 ## ```GROUP SUPPORT```
 
-- [`Alphabot 1`](https://chat.whatsapp.com/EU890BcXjyBDkNaUT5WmYV)
-- [`Alphabot 2`](https://chat.whatsapp.com/E8NExJwIbhBJYzssfqJNsE)
-- [`Alphabot 3`](https://chat.whatsapp.com/KCSqHTky1apG7ApePsfiPy)
+- [`Group Official Eorro`](https://chat.whatsapp.com/CeJyeovgOrr3kAeOuzzUNX)
+- [`Group Bot Eorro`](https://chat.whatsapp.com/IntTUe1fUvX1cz8IWVNp8q)
+- [`Group JB Eorro`](https://chat.whatsapp.com/Df42lIGf1D6LogFlxxkNmU)
 
 ## `THANKS TO`
 
