@@ -3111,8 +3111,9 @@ alpha.groupAdd(from, mentioned)
 break
 
 case 'kick':
+          if (!isBotGroupAdmins && !isGroupAdmins) return reply(lang.botNotAdm())
 if (!isGroup) return reply(lang.onlygc())
-if (!isBotGroupAdmins && !isGroupAdmins) return reply(lang.botNotAdm())
+//if (!isBotGroupAdmins && !isGroupAdmins) return reply(lang.botNotAdm())
 if(!q)return reply(`*Format salah!*\n\n*Example : ${prefix + command} @tag*`)
 if (!isBotGroupAdmins) return reply(mess.only.Badmin)
 yau = q.split('@')[1] + '@s.whatsapp.net'
