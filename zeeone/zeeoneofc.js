@@ -638,7 +638,7 @@ ${petik}│◦ ${prefix}rikagusriani
 │
 └─❑「 MENU BOT 」
 
-❏───「 *FARIDA BOT* 」───❏
+❏───「 *EORRO BOT* 」───❏
 `
 }
 
