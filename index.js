@@ -156,7 +156,7 @@ let antihidetag = setting.antihidetag;
 banChats = false
 offline = false
 readGc = true 
-readPc = false 
+readPc = true 
 antitrol = true 
 bugc = true
 autovn = false
@@ -178,7 +178,7 @@ let _diamond12 = '⦿ M.BULANAN';         let diamond12 = 'Rp 110.000,00';
 img = setting.img
 baper = 'Jangan Di Klik'
 apiku = 'https://youtu.be/2rWbjrDIAyA'
-gc_wa_lu = 'https://chat.whatsapp.com/CeJyeovgOrr3kAeOuzzUNX' //klo gk punya gc wa gk usah di ganti 👍
+gc_wa_lu = 'https://chat.whatsapp.com/I05QWmJp27XIHPhL77vUHu' //klo gk punya gc wa gk usah di ganti 👍
 targetpc = setting.ownerNumberr
 owner = targetpc
 fake = setting.fake
